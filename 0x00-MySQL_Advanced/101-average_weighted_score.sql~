@@ -1,0 +1,7 @@
+-- Compute the average weighted  score of all students
+
+DELIMITER $$
+CREATE PROCEDURE ComputeAverageWeightedScoreForUsers()
+BEGIN
+DECLARE w_average_score FLOAT;
+SET w_average_score = (SELECT)
